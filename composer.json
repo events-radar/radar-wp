@@ -1,0 +1,22 @@
+{
+    "name": "events-radar/wp-plugin",
+    "description": "WordPress Plugin to display events from Radar.",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "ekes",
+            "email": "ekes@iskra.net"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/events-radar/radar-api-php"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "prefer-stable": true,
+    "require": {
+        "events-radar/radar-api-php": "0.1.*@alpha"
+    }
+}
