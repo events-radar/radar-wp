@@ -17,7 +17,8 @@ The full set of fields on events presently supported are:
  * date  -  Event date
  * url  -  Event URL on Radar
  * <del>image</del> /Presently broken in API/
- * price  -  Event price
+ * price_category:title  -  Price Category
+ * price  -  Event price (free text field)
  * email  -  Event e-mail
  * link  -  Event link(s) on the web
  * phone  -  Event phone
