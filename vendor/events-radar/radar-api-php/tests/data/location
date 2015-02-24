@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Wed, 18 Feb 2015 13:31:15 GMT
+Server: Apache/2.2.22 (Debian)
+X-Powered-By: PHP/5.4.36-0+deb7u3
+X-Drupal-Cache: MISS
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Wed, 18 Feb 2015 13:31:15 GMT
+Cache-Control: public, max-age=0
+ETag: "1424266275-0"
+Vary: Cookie,Accept-Encoding,User-Agent
+Content-Length: 787
+Content-Type: application/json
+Strict-Transport-Security: max-age=15768000;includeSubDomains
+
+{"address":{"country":"DE","name_line":"X-B-Liebig","first_name":"X-B-Liebig","last_name":"","organisation_name":null,"administrative_area":null,"sub_administrative_area":null,"locality":"Berlin","dependent_locality":null,"postal_code":"10247","thoroughfare":"Liebigstr. 34","premise":""},"directions":"U-Bhf. Frankfurter Tor","map":{"geom":"POINT (13.4570431 52.5179561)","geo_type":"point","lat":"52.517956100000","lon":"13.457043100000","left":"13.457043100000","top":"52.517956100000","right":"13.457043100000","bottom":"52.517956100000","srid":null,"latlon":"52.517956100000,13.457043100000","schemaorg_shape":""},"timezone":"Europe/Berlin","id":"40","type":"location","title":"X-B-Liebig Liebigstr. 34  Berlin Germany","uuid":"bb9fafcc-6c1e-4a8c-ac35-a9e6fd47fb95","feed_nid":null}

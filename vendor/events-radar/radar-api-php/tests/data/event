@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Tue, 24 Feb 2015 19:49:44 GMT
+Server: Apache/2.2.22 (Debian)
+X-Powered-By: PHP/5.4.36-0+deb7u3
+X-Drupal-Cache: MISS
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Tue, 24 Feb 2015 19:49:44 GMT
+Cache-Control: public, max-age=300
+ETag: "1424807384-0"
+Vary: Cookie,Accept-Encoding,User-Agent
+Content-Length: 2613
+Content-Type: application/json
+Strict-Transport-Security: max-age=15768000;includeSubDomains
+
+{"body":{"value":"<p>This is a handy event that site devs are using.</p>\n","summary":"","format":"rich_text_editor"},"category":[{"uri":"https://new-radar.squat.net/api/1.0/taxonomy_term/e85a688d-03ac-4008-a3cb-1adb7e8f718a","id":"e85a688d-03ac-4008-a3cb-1adb7e8f718a","resource":"taxonomy_term"},{"uri":"https://new-radar.squat.net/api/1.0/taxonomy_term/2a56c4d7-eb98-4f96-9ac6-d383a1af5ce8","id":"2a56c4d7-eb98-4f96-9ac6-d383a1af5ce8","resource":"taxonomy_term"}],"group_content_access":"0","og_group_ref":[{"uri":"https://new-radar.squat.net/api/1.0/node/0df4bcd7-54b4-4559-a960-60b5042d3d48","id":"0df4bcd7-54b4-4559-a960-60b5042d3d48","resource":"node"}],"og_group_request":[],"date_time":[{"value":"1393271100","value2":"1393272000","duration":900,"time_start":"2014-02-24T20:45:00+01:00","time_end":"2014-02-24T21:00:00+01:00","rrule":null}],"image":[],"price":"Suggested donation \u20ac3","email":"joe@squat.net","link":[{"url":"http://www.joesgarage.nl/","attributes":[]}],"offline":[{"uri":"https://new-radar.squat.net/api/1.0/location/3c58abc1-e095-4db5-996d-2a064cebb2d3","id":"3c58abc1-e095-4db5-996d-2a064cebb2d3","resource":"location"}],"phone":"01-12345","topic":[{"uri":"https://new-radar.squat.net/api/1.0/taxonomy_term/6c73cff2-9dc9-41db-a79e-f54bf4c010f7","id":"6c73cff2-9dc9-41db-a79e-f54bf4c010f7","resource":"taxonomy_term"}],"title_field":"Test event","price_category":[{"uri":"https://new-radar.squat.net/api/1.0/taxonomy_term/9d943d0c-e2bf-408e-9110-4bfb044f60c0","id":"9d943d0c-e2bf-408e-9110-4bfb044f60c0","resource":"taxonomy_term"},{"uri":"https://new-radar.squat.net/api/1.0/taxonomy_term/6f4101f4-cd9b-49f2-91a3-203d2b47a3ed","id":"6f4101f4-cd9b-49f2-91a3-203d2b47a3ed","resource":"taxonomy_term"}],"og_membership":[],"og_membership__1":[],"og_membership__2":[],"og_membership__3":[],"og_group_ref__og_membership":[],"og_group_ref__og_membership__1":[],"og_group_ref__og_membership__2":[],"og_group_ref__og_membership__3":[],"og_group_request__og_membership":[],"og_group_request__og_membership__1":[],"og_group_request__og_membership__2":[],"og_group_request__og_membership__3":[],"nid":"9171","vid":"9680","is_new":false,"type":"event","title":"Test event","language":"en","url":"https://new-radar.squat.net/en/event/amsterdam/joes-garage/2014-02-24/test-event","edit_url":"https://new-radar.squat.net/en/node/9171/edit","status":"1","promote":"0","sticky":"0","created":"1424807163","changed":"1424807163","feed_nid":null,"flag_abuse_node_user":[],"flag_abuse_whitelist_node_user":[],"uuid":"69300100-b104-4c37-b651-48351543e8a6","vuuid":"a66a7c7d-5ed4-487e-92b8-ee876b91e2d6"}

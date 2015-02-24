@@ -483,17 +483,17 @@
     },
     {
         "name": "events-radar/radar-api-php",
-        "version": "0.1.0-alpha2",
-        "version_normalized": "0.1.0.0-alpha2",
+        "version": "0.1.0-alpha3",
+        "version_normalized": "0.1.0.0-alpha3",
         "source": {
             "type": "git",
             "url": "https://github.com/events-radar/radar-api-php.git",
-            "reference": "7f65011feae28792fe5823e4569c6194f73bed94"
+            "reference": "20e0b5c7d268f413fc1705bb81c46bce99b5ec1d"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/events-radar/radar-api-php/zipball/7f65011feae28792fe5823e4569c6194f73bed94",
-            "reference": "7f65011feae28792fe5823e4569c6194f73bed94",
+            "url": "https://api.github.com/repos/events-radar/radar-api-php/zipball/20e0b5c7d268f413fc1705bb81c46bce99b5ec1d",
+            "reference": "20e0b5c7d268f413fc1705bb81c46bce99b5ec1d",
             "shasum": ""
         },
         "require": {
@@ -507,7 +507,7 @@
             "guzzle/guzzle": "3.9.2",
             "phpunit/phpunit": "~4.5"
         },
-        "time": "2015-02-22 10:34:30",
+        "time": "2015-02-24 20:52:50",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -520,7 +520,7 @@
         ],
         "description": "Radar API connect",
         "support": {
-            "source": "https://github.com/events-radar/radar-api-php/tree/0.1.0-alpha2",
+            "source": "https://github.com/events-radar/radar-api-php/tree/0.1.0-alpha3",
             "issues": "https://github.com/events-radar/radar-api-php/issues"
         }
     }
