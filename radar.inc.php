@@ -96,8 +96,8 @@ function _radar_field_collect_subfields(&$fields) {
  */
 function _radar_field_name_mapping($fields) {
   // Replace the nice entity names with (exposed) internal field names.
-  $nice_names = array('url', 'date', 'group', 'location');
-  $ugly_names = array('view_url', 'date_time', 'og_group_ref', 'offline');
+  $nice_names = array('date', 'group', 'location');
+  $ugly_names = array('date_time', 'og_group_ref', 'offline');
   return str_replace($nice_names, $ugly_names, $fields);
 }
 
