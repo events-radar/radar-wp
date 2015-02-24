@@ -115,7 +115,7 @@ function _radar_parse_items($type, $items, $fields, $subfields = array()) {
         continue;
       }
       $current_field = $item->$method();
-      if (!empty($subfields[$field_name])) {
+      if (!empty($current_field) && !empty($subfields[$field_name])) {
         $current_field = radar_retrieve_entities($current_field);
         $current_subfields = $subfields[$field_name];
         $current_sub_subfields = _radar_field_collect_subfields($current_subfields);
@@ -140,6 +140,7 @@ function _radar_method_lookup($type, $field) {
       'url' => 'getUrlView',
       'image' => 'getImageRaw',
       'price' => 'getPrice',
+      'price_category' => 'getPriceCategory',
       'email' => 'getEmail',
       'link' => 'getLink',
       'phone' => 'getPhone',
@@ -160,6 +161,9 @@ function _radar_method_lookup($type, $field) {
       'title' => 'getTitle',
     ),
     'category' => array(
+      'title' => 'getTitle',
+    ),
+    'price_category' => array(
       'title' => 'getTitle',
     ),
     'group' => array(

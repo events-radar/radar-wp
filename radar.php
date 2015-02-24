@@ -37,6 +37,7 @@ function radar_shortcode_events($attributes, $content = '') {
       'location:directions',
       'category:title',
       'topic:title',
+      'price_category:title',
       'price',
       'link',
       'body',
