@@ -44,7 +44,7 @@ class Connect {
       $this->apiUrl = $configuration['api_url'];
     }
     else {
-      $this->apiUrl = 'https://new-radar.squat.net/api/1.0/';
+      $this->apiUrl = 'https://radar.squat.net/api/1.0/';
     }
     $this->debug = !empty($configuration['debug']);
   }
