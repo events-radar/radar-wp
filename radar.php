@@ -134,7 +134,7 @@ function radar_shortcode_field_date_value($field, $type, $item, $parents, $short
       $field['output'] = array();
       foreach ($field['value'] as $date) {
         $this_date = sprintf(__('Start: %s', 'radar_textdomain'), $date['start']->format('Y-m-d H:i:s'));
-        if ($field['value']['start'] != $field['value']['end']) {
+        if ($date['start'] != $date['end']) {
           $this_date .= '<br />'
             . sprintf(__('End: %s', 'radar_textdomain'), $date['end']->format('Y-m-d H:i:s'));
         }
