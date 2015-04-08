@@ -326,6 +326,8 @@ add_filter('shortcode_atts_radar_events', 'radar_shortcode_parse', 10, 3);
  * Format item's parsed fields array for radar shortcode's.
  */
 function radar_format_item($type, $item, $shortcode, $parents = array()) {
+  $content = '';
+
   foreach ($item as $field) {
     // Item containing other items.
     if (!empty($field['entity'])) {

@@ -72,8 +72,10 @@ function radar_filter($settings) {
  * Collapses subfields, simplifies field list.
  */
 function _radar_field_collect_subfields(&$fields) {
+  $entity_fields = array();
+
   foreach ($fields as $delta => $listed_field) {
-    list($field, $subfield) = explode(':', $listed_field, 2);
+    list($field, $subfield) = array_pad(explode(':', $listed_field, 2), 2, null);
     if (!empty($subfield)) {
       // A field with subfields.
       if (!empty($entity_fields[$field])) {
