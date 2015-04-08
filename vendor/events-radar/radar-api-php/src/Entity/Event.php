@@ -104,7 +104,7 @@ class Event extends Node {
    * @return TaxonomyTerm[]
    */
   public function getPriceCategory() {
-    $categories = array();
+    $price_categories = array();
     if (is_array($this->price_category)) {
       foreach ($this->price_category as $price_category) {
         $price_categories[] = new TaxonomyTerm($price_category);
