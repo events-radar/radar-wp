@@ -173,7 +173,7 @@ add_filter('radar_shortcode_field_value', 'radar_shortcode_field_location_value'
 function radar_shortcode_field_url_value($field, $type, $item, $parents, $shortcode) {
   if ($field['field'] == 'title') {
     foreach ($item as $other_field) {
-      if ($other_field['field'] == 'url') {
+      if (!empty($other_field['field']) && $other_field['field'] == 'url') {
         $field['output'] = '<a href="'. $other_field['value'] .'">' . $field['output'] . '</a>';
       }
     }
@@ -239,7 +239,7 @@ add_filter('radar_shortcode_field_html', 'radar_shortcode_field_html', 10, 6);
  * by radar_shortcode_field_html (weight 8 before 10).
  */
 function radar_shortcode_field_link_html($output, $field, $type, $item, $parents, $shortcode) {
-  if ($field['type'] == 'link') {
+  if (!empty($field['type']) && $field['type'] == 'link') {
     foreach ($output as &$link) {
       $link = '<a href="' . $link . '">' . $link . '</a>';
     }
@@ -253,7 +253,7 @@ add_filter('radar_shortcode_field_html', 'radar_shortcode_field_link_html', 8, 6
  * Title field HTML implentation of 'radar_shortcode_field_html' filter.
  */
 function radar_shortcode_field_title_html($output, $field, $type, $item, $parents, $shortcode) {
-  if ($field['type'] == 'title' && !count($parents)) {
+  if (!empty($field['type']) && $field['type'] == 'title' && !count($parents)) {
     $output = '<h3>' . $output . '</h3>';
   }
 
@@ -281,7 +281,7 @@ add_filter('radar_shortcode_field_html', 'radar_shortcode_field_subfields_html',
  * For fields or the main item, not subfields.
  */
 function radar_shortcode_field_paragraph_html($output, $field, $type, $item, $parents, $shortcode) {
-  if (empty($parents) && in_array($field['type'], array('date', 'url', 'price', 'email', 'link', 'phone', 'created', 'updated', 'opening_times'))) {
+  if (empty($parents) && !empty($field['type']) && in_array($field['type'], array('date', 'url', 'price', 'email', 'link', 'phone', 'created', 'updated', 'opening_times'))) {
     $output = '<p class="' . $field['type'] . '">' . $output . '</p>';
   }
 
