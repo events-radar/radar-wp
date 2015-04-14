@@ -53,7 +53,6 @@ function radar_client() {
 
 function radar_filter($settings) {
   $filter = new \Radar\Connect\Filter;
-
   if (!empty($settings['city'])) {
     $filter->addCity($settings['city']);
   }
@@ -61,6 +60,9 @@ function radar_filter($settings) {
     $filter->addGroup($settings['group']);
   }
 
+  if (!empty($settings['country'])) {
+    $filter->addCountry($settings['country']);
+  }
   return $filter;
 }
 

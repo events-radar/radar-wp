@@ -5,7 +5,7 @@
  * Description: Provides widget and short code to display radar events.
  * Plugin URI: http://radar.squat.net/
  * Author: Ekes
- * Version: 0.1.0-alpha1
+ * Version: 0.1.0-alpha2
  * ================================================================== */
 
 // TODO cron updating; and caching.
@@ -29,6 +29,7 @@ function radar_shortcode_events($attributes, $content = '') {
     'api_url' => 'https://new-radar.iskra.net/',
     'max_count' => 5,
     'city' => '',
+    'country' => '',
     'group' => '',
     'fields' => array(
       'title',
